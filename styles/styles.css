@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header {
+    background-color: #000;
+}
+
+.header-container {
+    width: 90%;
+    height: 4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    color: #fff;
+    padding: 1rem 0.5rem;
+}
+
+header a:hover {
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+section div {
+    width: 90%;
+    margin: auto;
+}
+
+.main-container {
+    width: 100%;
+    min-height: 650px;
+}
+main h2 {
+    margin-top: 3rem;
+}
+main p {
+    margin-top: 0.5rem;
+}
+main img {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+main a {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #13184d;
+    width: 16rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 2rem auto;
+}
+main a:hover {
+    background-color: #0d1139;
+}
+
+main ol {
+    margin-top: 0.5rem;
+    list-style-position: inside;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    height: 20rem;
+    margin-top: 3rem;
+}
+
+footer img {
+    height: 4rem;
+}
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+footer li {
+    list-style-type: none;
+}
+
+@media (min-width: 1081px) {
+    html {
+        font-size: 20px;
+    }
+    .header-container {
+        width: 70%;
+    }
+    .main-container {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .flex-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    section div {
+        width: 25rem;
+        padding: 1rem;
+        border-bottom: 5px solid #13184d;
+        margin: 0;
+    }
+    main img {
+        margin-left: 1rem;
+        width: 25rem;
+    }
+    footer {
+        height: 10rem;
+    }
+    .footer-container {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

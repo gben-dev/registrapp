@@ -1,0 +1,37 @@
+i {
+    font-size: 14rem;
+    text-align: center;
+}
+
+i.fa-android {
+    color: #7ccf50;
+    font-size: 14rem;
+    text-align: center;
+}
+
+i.fa-apple {
+    margin-top: 1rem;
+    color: #8e8e8e;
+}
+
+.download {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.qr {
+    display: none;
+}
+
+
+@media (min-width: 1081px) {
+    .apk {
+        display: none;
+    }
+    .qr {
+        display: block;
+    }
+}
